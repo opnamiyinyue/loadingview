@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="2dp"
+    android:layout_gravity="center">
+    <me.mikasa.bearrun.bearrundialog.BearRunView
+        android:id="@+id/iv_bear_run"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:paddingTop="12dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="26dp"
+        app:srcCompat="@mipmap/ic_bili"/>
+    <TextView
+        android:gravity="center"
+        android:layout_width="130dp"
+        android:layout_height="20dp"
+        android:textSize="10sp"
+        android:text="@string/bear_loading"
+        android:layout_alignBottom="@+id/iv_bear_run"
+        android:layout_marginBottom="2dp"/>
+</RelativeLayout>

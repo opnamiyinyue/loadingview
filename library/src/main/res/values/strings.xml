@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BearRun</string>
+    <string name="bear_loading">努力加载中</string>
+</resources>
