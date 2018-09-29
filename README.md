@@ -9,13 +9,13 @@ loading custom 自定义loadingview 有趣好玩的loadingview 百度熊
    
 调用非常简单  
   
-首先定义GIF的图片集，可以替换bear图片为你想要做成的GIF图  
+首先定义GIF的图片集，可以替换bear图片为你想要做成的GIF图,数量不限    
 private int[]imgIds={R.mipmap.bear1,R.mipmap.bear2,R.mipmap.bear3,R.mipmap.bear4,
                          R.mipmap.bear5,R.mipmap.bear6,R.mipmap.bear7};   
                          
 然后调用BearRunDialog  
   
-BearRunDialog dialog=new BearRunDialog(this);
+BearRunDialog dialog=new BearRunDialog(context);
    
 dialog.setRunImgIds(imgIds);//gif的图片集  
   
