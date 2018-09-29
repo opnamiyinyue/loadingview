@@ -24,7 +24,14 @@ dialog.setRunImgIds(imgIds);//gif的图片集
   
 最后通过dialog.show()和dialog.dismiss()来控制loadingview的显示和隐藏  
   
-<img src="https://github.com/sanlisanlisanli/loadingview/blob/master/screenshots/Screenshot_20180929-194906.jpg" width="200"  height="300"/><img src="https://github.com/sanlisanlisanli/loadingview/blob/master/screenshots/Screenshot_20180929-194911.jpg" width="200"  height="300"/><img src="https://github.com/sanlisanlisanli/loadingview/blob/master/screenshots/Screenshot_20180929-195644.jpg" width="200"  height="300"/>
+<img src="https://github.com/sanlisanlisanli/loadingview/blob/master/screenshots/Screenshot_20180929-194906.jpg" width="200"  height="300"/>  
+<img src="https://github.com/sanlisanlisanli/loadingview/blob/master/screenshots/Screenshot_20180929-194911.jpg" width="200"  height="300"/>  
+<img src="https://github.com/sanlisanlisanli/loadingview/blob/master/screenshots/Screenshot_20180929-195644.jpg" width="200"  height="300"/>  
+  
+如果能帮助到你，欢迎star，你的喜欢是我最大的动力  
+
+拥抱开源  
+
   
   
 
