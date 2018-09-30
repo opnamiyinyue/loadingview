@@ -23,7 +23,7 @@ public abstract class BaseDialog {
         display=manager.getDefaultDisplay();
         dialog=new Dialog(context);
         //phoneWindow
-        getView().setLayoutParams(new LinearLayout.LayoutParams((int)(display.getWidth()*0.4),
+        getView().setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT));
         dialog.setContentView(getView());//自定义view
     }
